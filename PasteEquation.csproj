@@ -28,16 +28,16 @@
     <AssemblyName>PasteEquation</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <DefineConstants>VSTO40</DefineConstants>
+    <IsWebBootstrapper>False</IsWebBootstrapper>
     <BootstrapperEnabled>true</BootstrapperEnabled>
-    <PublishUrl>C:\Users\tonya\source\repos\PasteEquation\PasteEquation\publish\</PublishUrl>
+    <PublishUrl>C:\publish\</PublishUrl>
     <InstallUrl />
     <TargetCulture>en</TargetCulture>
-    <ApplicationVersion>1.0.0.0</ApplicationVersion>
-    <AutoIncrementApplicationRevision>true</AutoIncrementApplicationRevision>
+    <ApplicationVersion>3.0.0.0</ApplicationVersion>
+    <AutoIncrementApplicationRevision>false</AutoIncrementApplicationRevision>
     <UpdateEnabled>true</UpdateEnabled>
     <UpdateInterval>7</UpdateInterval>
     <UpdateIntervalUnits>days</UpdateIntervalUnits>
-    <IsWebBootstrapper>False</IsWebBootstrapper>
     <ProductName>PasteEquation</ProductName>
     <PublisherName />
     <SupportUrl />
@@ -233,8 +233,8 @@
     <VisualStudio>
       <FlavorProperties GUID="{BAA0C2D2-18E2-41B9-852F-F413020CAA33}">
         <ProjectProperties HostName="Word" HostPackage="{29A7B9D7-A7F1-4328-8EF0-6B2D1A56B2C1}" OfficeVersion="15.0" VstxVersion="4.0" ApplicationType="Word" Language="cs" TemplatesPath="" DebugInfoExeName="#Software\Microsoft\Office\16.0\Word\InstallRoot\Path#WINWORD.EXE" DebugInfoCommandLine="/x" AddItemTemplatesGuid="{51063C3A-E220-4D12-8922-BDA915ACD783}" />
-        <Host Name="Word" GeneratedCodeNamespace="PasteEquation" IconIndex="0">
-          <HostItem Name="Main" Code="Main.cs" CanonicalName="AddIn" CanActivate="false" IconIndex="1" Blueprint="Main.Designer.Designer.xml" GeneratedCode="Main.Designer.Designer.cs" />
+        <Host Name="Word" GeneratedCodeNamespace="PasteEquation" PublishedHash="69C324AB27932AA2FBF2B7EA72250886FF164DE6" IconIndex="0">
+          <HostItem Name="Main" Code="Main.cs" CanonicalName="AddIn" CanActivate="false" IconIndex="1" Blueprint="Main.Designer.Designer.xml" GeneratedCode="Main.Designer.Designer.cs" PublishedHash="8C253720E4E429F15D29FFD20FBCB67D13B5DEB9" />
         </Host>
       </FlavorProperties>
     </VisualStudio>
